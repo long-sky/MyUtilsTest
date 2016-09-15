@@ -1,0 +1,134 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <com.example.viewex.widget.viewanimator.WSCircleCD
+                android:id="@+id/load_cd"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+            
+            <com.example.viewex.widget.viewanimator.WSCircleSun
+                android:id="@+id/load_sun"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_toRightOf="@+id/load_cd"/>
+            
+            <com.example.viewex.widget.viewanimator.WSCircleRing
+                android:id="@+id/load_ring"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_toRightOf="@+id/load_sun"/>
+            
+            <com.example.viewex.widget.viewanimator.WSCircleFace
+                android:id="@+id/load_face"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/load_cd"/>
+
+
+            <com.example.viewex.widget.viewanimator.WSCircleJump
+                android:id="@+id/load_jump"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/load_sun"
+                android:layout_toRightOf="@+id/load_face"/>
+
+            <com.example.viewex.widget.viewanimator.WSGears
+                android:id="@+id/load_gear"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/load_ring"
+                android:layout_toRightOf="@+id/load_jump"/>
+
+            <com.example.viewex.widget.viewanimator.WSJump
+                android:id="@+id/load_mjump"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/load_face"/>
+
+            <com.example.viewex.widget.viewanimator.WSCircleRotate
+                android:id="@+id/load_rotate"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/load_mjump"/>
+
+            <com.example.viewex.widget.viewanimator.WSCircleRipple
+                android:id="@+id/load_ripple"
+                android:layout_toRightOf="@+id/load_rotate"
+                android:layout_below="@+id/load_mjump"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+
+
+            <com.example.viewex.widget.viewanimator.WSSwapLoading
+                android:id="@+id/load_swap"
+                android:layout_width="100dp"
+                android:layout_toRightOf="@+id/load_gear_loading"
+                android:layout_below="@+id/load_mjump"
+                android:layout_height="100dp"/>
+
+            <com.example.viewex.widget.viewanimator.WSLineProgress
+                android:id="@+id/load_line_progress"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/load_rotate"/>
+
+            <com.example.viewex.widget.viewanimator.WSEatBeans
+                android:id="@+id/load_eat"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/load_line_progress"/>
+
+            <com.example.viewex.widget.viewanimator.WSCubes
+                android:id="@+id/load_cube"
+                android:layout_width="100dp"
+                android:layout_toRightOf="@+id/load_mjump"
+                android:layout_height="100dp"
+                android:layout_below="@+id/load_jump"/>
+
+            <com.example.viewex.widget.viewanimator.WSFiveStar
+                android:id="@+id/load_mfive"
+                android:layout_width="100dp"
+                android:layout_toRightOf="@+id/load_cube"
+                android:layout_height="100dp"
+                android:layout_below="@+id/load_jump"/>
+
+            <com.example.viewex.widget.viewanimator.WSCircleRise
+                android:id="@+id/load_rise"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/load_eat"/>
+
+            <com.example.viewex.widget.viewanimator.WSCircleBar
+                android:id="@+id/load_bar"
+                android:layout_width="100dp"
+                android:layout_toRightOf="@+id/load_rise"
+                android:layout_height="100dp"
+                android:layout_below="@+id/load_eat"/>
+
+            <com.example.viewex.widget.viewanimator.WSCircleArc
+                android:id="@+id/load_arc"
+                android:layout_width="100dp"
+                android:layout_toRightOf="@+id/load_bar"
+                android:layout_height="100dp"
+                android:layout_below="@+id/load_eat"/>
+
+            <com.example.viewex.widget.viewanimator.WSMaterialLoading
+                android:id="@+id/load_material"
+                android:layout_width="100dp"
+                android:layout_below="@+id/load_bar"
+                android:layout_height="100dp"/>
+
+            <com.example.viewex.widget.viewanimator.WSGearLoading
+                android:id="@+id/load_gear_loading"
+                android:layout_width="100dp"
+                android:layout_toRightOf="@+id/load_rotate"
+                android:layout_below="@+id/load_bar"
+                android:layout_height="100dp"/>
+        </RelativeLayout>
+</ScrollView>

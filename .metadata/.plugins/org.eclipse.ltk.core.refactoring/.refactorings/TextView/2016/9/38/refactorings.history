@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 4 elements from project &apos;TextView&apos;&#x0D;&#x0A;- Original project: &apos;TextView&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.example.viewex.activity.DateTimeActivity.java&#x0D;&#x0A;     com.example.viewex.activity.MyListViewActivity.java&#x0D;&#x0A;     com.example.viewex.activity.RulerTestActivity.java&#x0D;&#x0A;     com.example.viewex.activity.TitleBarTestActivity.java" description="Delete elements" element1="/src&lt;com.example.viewex.activity{MyListViewActivity.java" element2="/src&lt;com.example.viewex.activity{DateTimeActivity.java" element3="/src&lt;com.example.viewex.activity{RulerTestActivity.java" element4="/src&lt;com.example.viewex.activity{TitleBarTestActivity.java" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1473875798470" subPackages="false" version="1.0"/>
+</session>

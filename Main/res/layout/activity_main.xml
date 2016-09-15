@@ -1,0 +1,96 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/simple_hello_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/simple_hello_view"
+        />
+
+    <Button
+        android:id="@+id/count_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/count_view"
+        />
+    
+    <Button
+        android:id="@+id/title_bar_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_bar_view"
+        />
+    
+    <Button
+        android:id="@+id/delete_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_list_view"
+        />
+    
+    <Button
+        android:id="@+id/switch_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/switch_btn"
+        />
+    
+    <Button
+        android:id="@+id/svg_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/svg_btn"
+        />
+    
+    <Button
+        android:id="@+id/run_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/run_btn"
+        />
+    
+    <Button
+        android:id="@+id/loading_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/loading_btn"
+        />
+    
+    <Button
+        android:id="@+id/ruler_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ruler_btn"
+        />
+    
+    <Button
+        android:id="@+id/date_time_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/date_time_btn"
+        />
+    
+    <Button
+        android:id="@+id/magnet_imageview_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/magnet_imageview_btn"
+        />
+    
+    <Button
+        android:id="@+id/proscenium_pendent_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/proscenium_pendent_btn"
+        />
+</LinearLayout>
+</ScrollView>

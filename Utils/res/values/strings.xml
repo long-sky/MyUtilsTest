@@ -1,0 +1,35 @@
+<resources>
+
+    <string name="app_name">ViewEx</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="simple_hello_view">自定义布局、简单视图</string>
+    <string name="count_view">自绘控件(计数器)</string>
+    <string name="back">Back</string>
+    <string name="this_is_title">This is Title</string>
+    <string name="title_activity_title_bar_test">TitleBarTestActivity</string>
+    <string name="title_bar_view">组合控件(标题栏)</string>
+    <string name="title_activity_my_list_view">MyListViewActivity</string>
+    <string name="delete_list_view">继承控件(侧滑删除listView)</string>
+    <string name="delete">刪除</string>
+    <string name="title_activity_switch_btn">SwitchBtnActivity</string>
+    <string name="switch_btn">切换按钮效果实现</string>
+    <string name="toggle_btn">ToggleButton实现：</string>
+    <string name="ios_toggle_btn">仿IOS7开关实现：</string>
+    <string name="switch_type1">自定义CheckBox实现(enable=true)：</string>
+    <string name="switch_type2">根据上面的开关改变   enable 属性：</string>
+    <string name="switch_type3">自定义CompoundButton实现：</string>
+    <string name="switch_type4">自定义View实现：</string>
+    <string name="title_activity_svgimage">SVGImageActivity</string>
+    <string name="svg_btn">svg各种形状ImageView</string>
+    <string name="run_btn">自定义小人动画加载dialog</string>
+    <string name="title_activity_animator_loading">AnimatorLoadingActivity</string>
+    <string name="loading_btn">各种自定义动画loading</string>
+    <string name="ruler_btn">刻度尺</string>
+    <string name="date_time_btn">时间日期/日历选择控件</string>
+    <string name="magnet_imageview_btn">仿win8磁铁效果ImageView</string>
+    <string name="proscenium_pendent_btn">前台挂件</string>
+    <string name="title_activity_ruler_test">RulerTestActivity</string>
+    <string name="title_activity_date_time">DateTimeActivity</string>
+    <string name="title_activity_magnet_iv">MagnetIvActivity</string>
+
+</resources>

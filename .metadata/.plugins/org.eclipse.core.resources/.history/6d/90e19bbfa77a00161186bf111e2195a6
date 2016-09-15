@@ -1,0 +1,69 @@
+TextView:
+	EditText
+	Button
+	RadioButton
+	CheckBox
+	ToggleButton
+	Switch
+	AnalogClock、TextClock
+	Chronometer
+ImageView:
+	QuickContactBadge
+AdapterView:
+	ListView、ListActicity
+	ArrayAdapter、SimpleAdapter、BaseAdapter
+	AutoCompleteTextView
+	GridView
+	ExpandableListView
+	Spinner
+	AdapterViewFlipper
+	StackView
+ProgressBar:
+	SeekBar
+	RatingBar
+ViewAnimator:
+	ViewSwitcher
+	ImageSwitcher
+	TextSwitcher
+	ViewFilpper
+其他：
+	Toast
+	CalendarView
+	DatePicker、TimePicker
+	NumberPicker
+	SearchView
+	TabHost
+	ScrollView
+	Notification
+对话框：
+	AlertDialog
+	PopupWindow
+	DatePickerDialog、TimePickerDialog
+	ProgressDialog
+	SubMenu
+	PopuMenu
+	ActionBar
+	Fragment
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
